@@ -9,8 +9,7 @@ public class Food {
 	private String foodName;
 	private boolean veg;
 	private Integer prize;
-	private Performance qualityObj;
-
+	
 	Food(int id, String name, boolean veg) {
 		this.foodId = id;
 		this.foodName = name;
@@ -35,10 +34,6 @@ public class Food {
 
 	protected boolean checkVeg() {
 		return this.veg;
-	}
-
-	public void setFoodQuality(Performance tempObj) {
-		this.qualityObj = tempObj;
 	}
 
 	@Override
