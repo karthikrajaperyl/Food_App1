@@ -16,23 +16,23 @@ public class Food {
 		this.veg = veg;
 	}
 
-	protected int getId() {
+	public int getId() {
 		return this.foodId;
 	}
 
-	protected String getName() {
+	public String getName() {
 		return this.foodName;
 	}
 
-	protected void setPrize(int prize) {
+	public void setPrize(int prize) {
 		this.prize = prize;
 	}
 
-	protected Integer getPrize() {
+	public Integer getPrize() {
 		return prize;
 	}
 
-	protected boolean checkVeg() {
+	public boolean checkVeg() {
 		return this.veg;
 	}
 
